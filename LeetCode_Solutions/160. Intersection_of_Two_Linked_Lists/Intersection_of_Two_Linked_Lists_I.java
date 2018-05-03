@@ -27,3 +27,9 @@ public class Solution {
     return a;
   }
 }
+
+/*
+A: a1 -> a2 -> c1 -> c2 -> c3 -> b1 -> b2 -> b3 -> c1 -> c2 -> c3
+B: b1 -> b2 -> b3 -> c1 -> c2 -> c3 -> a1 -> a2 -> c1 -> c2 -> c3
+Time:O(m + n)   Space: O(1)
+*/
