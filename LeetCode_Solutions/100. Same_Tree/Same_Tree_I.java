@@ -22,5 +22,7 @@ Method: recursive
 
 line 11 and line 12 can not be swtiched. Otherwise, it cause error. 
 
+Similar to 101.
+
 Time: O(n)   Space: O(n)
 */
