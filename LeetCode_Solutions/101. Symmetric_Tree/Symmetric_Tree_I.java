@@ -24,7 +24,7 @@ class Solution {
 /*
 Method: recrusive
 
-Similar to LC 100
+Similar to LC 100.
 
 Time: O(n)  Space: O(n)
 */
