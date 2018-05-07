@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Solution {
     public int trailingZeroes(int n) {
         return n == 0 ? 0 : n / 5 + trailingZeroes(n / 5);
@@ -7,3 +8,14 @@ class Solution {
 /*
 Time:O(logn)  Space:O(n)
 */
+=======
+class Solution {
+    public int trailingZeroes(int n) {
+        return n == 0 ? 0 : n / 5 + trailingZeroes(n / 5);
+    }
+}
+
+/*
+Time:O(logn)  Space:O(n)
+*/
+>>>>>>> 59ec0388aed1323bba68cd071f3bc1e7cff917c3
