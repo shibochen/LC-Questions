@@ -17,15 +17,15 @@
 `Integer.valueOf(str)`
 `Integer.toBinaryString(str)`
 
-`
+```
 while(i < str.length()){
     result = result * 10 + str.charAt(i) - '0';
 }
-`
+```
 2. Reverse Integer
-`
+```
 while(n != 0){
     result = result * 10 + n % 10;
     n /= 10;
 }
-`
+```
