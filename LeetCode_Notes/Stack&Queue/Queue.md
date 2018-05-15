@@ -18,7 +18,7 @@ Queue interface in Java collections has two implementations:
 | :---: | :---:|
 | offer(object) | Inserts the specified element into the queue
 | poll() | It is almost same as **remove** method. The only difference between them is that **poll()** method returns null if the Queue is empty |
-| peek() | It is almost same as **element()** method. The only difference between them is that **peek()** method returns null if teh Queue is empty |
+| peek() | It is almost same as **element()** method. The only difference between them is that **peek()** method returns null if the Queue is empty |
 | add(object) | Adds the specified element into the queue |
 | remove() | Removes the head (first element) of the Queue and return its value |
 | element() | Returns the head (the first element) of the Queue |
