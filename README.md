@@ -1,5 +1,5 @@
-# LeetCode
+# Problems
 
-### LeetCode solutions in Java
+### Problem solutions in Java
 
 
