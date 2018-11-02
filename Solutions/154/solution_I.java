@@ -17,3 +17,6 @@ class Solution {
         return nums[start];
     }
 }
+
+TC: O(logN)
+SC: O(1)
