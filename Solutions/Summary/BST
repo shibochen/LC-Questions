@@ -1,0 +1,27 @@
+public class BinarySearchTree {
+    TreeNode root;
+
+    public static void main(String[] args) {
+        BinarySearchTree tree = new BinarySearchTree();
+
+        tree.root = new TreeNode();
+        tree.root.left = new TreeNode();
+        tree.root.right = new TreeNode();
+        tree.root.left.left = new TreeNode();
+        tree.root.left.right = new TreeNode();
+        tree.root.right.left = new TreeNode();
+        tree.root.right.right = new TreeNode();
+
+        System.out.println();
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left, right;
+
+    public TreeNode (int key) {
+        val = key;
+        left = right = null;
+    }
+}
