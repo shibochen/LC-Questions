@@ -13,5 +13,7 @@ class Solution {
     }
 }
 
+
+counting sort
 O(n)
 O(1)
