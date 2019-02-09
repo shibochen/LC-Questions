@@ -17,4 +17,4 @@ class Solution {
 }
 
 O(n)
-O(1)
+O(n)
