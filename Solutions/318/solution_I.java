@@ -22,5 +22,6 @@ class Solution {
     }
 }
 
+| operator and & operator
 O(n^2)
 O(n)
