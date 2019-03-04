@@ -154,7 +154,7 @@ Problem # | Important | Difficulty | Rate | Comment
 147
 148
 149
-150
+150 | Y | M | 1 | 经典运用stack来解决这类问题 
 151
 152
 153
@@ -232,14 +232,14 @@ Problem # | Important | Difficulty | Rate | Comment
 222
 223
 224
-225
+225 | Y | E | 1 | 运用queue来实现stack，重点且参考网站答案
 226
 227
 228
 229
 230
 231
-232
+232 | Y | E | 1 | 本题主要是用stack来实现queue，重点
 233
 234
 235

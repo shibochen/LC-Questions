@@ -7,6 +7,9 @@ class MyStack {
         queue = new LinkedList<>();    
     }
     
+    为什么queue.size() - 1？
+    当size为1， 不需要移动位置
+    当size为2， 直接可以移动一个就可以，比如原来queue中 2 1, 在loop里直接变为 1 2
     /** Push element x onto stack. */
     public void push(int x) {
         queue.add(x);

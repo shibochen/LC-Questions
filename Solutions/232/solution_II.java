@@ -8,43 +8,36 @@ class MyQueue {
         s2 = new Stack<>();
     }
     
+    这里的方法主要是进行交互作用，比如
+    s1 ： 
+    s2 :  1 2 3
+    s1 :  3 2 1
     /** Push element x to the back of queue. */
     public void push(int x) {
-        s1.push(x);
+        while (!s1.isEmpty()) {
+            s2.push(s1.pop());
+        }
+        s2.push(x);
+        while (!s2.isEmpty()) {
+            s1.push(s2.pop());
+        }
     }
     
     /** Removes the element from in front of queue and returns that element. */
     public int pop() {
-        if (!s2.isEmpty()) {
-            return s2.pop();
-        } else {
-            while (!s1.isEmpty()) s2.push(s1.pop());
-            
-            return s2.pop();
-        }
+        return s1.pop();
     }
     
     /** Get the front element. */
     public int peek() {
-        if (!s2.isEmpty()) {
-            return s2.peek();
-        } else {
-            while (!s1.isEmpty()) s2.push(s1.pop());
-            
-            return s2.peek();
-        }
+        return s1.peek();
     }
     
     /** Returns whether the queue is empty. */
     public boolean empty() {
-        return s1.isEmpty() && s2.isEmpty();
+        return s1.isEmpty();
     }
 }
-
-s1: 1 2 3
-s2: 3 2 1
-在pop方法里，假如s2不为空，所求值直接就是s2所pop出来值。
-如果s2为空，就把s1里的所有数字都pop出来，然后压入s2，所求值就是s2 pop出来的值
 
 /**
  * Your MyQueue object will be instantiated and called as such:
